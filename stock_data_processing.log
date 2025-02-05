@@ -1,0 +1,15 @@
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for CIBC not found in the dictionary.
+ERROR:root:Error processing files: "['close_price', 'high_price', 'low_price', 'open_price', 'volume'] not in index"
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for CIBC not found in the dictionary.
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for CIBC not found in the dictionary.
+ERROR:root:Ticker for BMO not found in the dictionary.
+ERROR:root:Ticker for CIBC not found in the dictionary.
+ERROR:root:Error: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+ERROR:root:Error: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
