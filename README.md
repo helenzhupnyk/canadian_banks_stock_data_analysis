@@ -27,7 +27,7 @@ Data was sourced from reputable financial databases and includes daily closing p
 
 An interactive dashboard is available to visualize key findings from the analysis. The dashboard provides insights into stock trends, volatility, and comparisons among the banks.
 ![image](https://github.com/user-attachments/assets/82ef8f55-fe2a-4d60-a0b4-73b245522047)
-
+![image](https://github.com/user-attachments/assets/e595c902-46ae-447c-817c-4ba715a25175)
 
 **Access the dashboard here:** [Dashboard Link](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/dashboard)
 
