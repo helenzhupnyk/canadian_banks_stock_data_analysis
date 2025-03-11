@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to analyze the stock performance of major Canadian banks over a specified period. By examining historical stock data, we seek to uncover trends, assess volatility, and provide insights that can inform investment decisions.
+This project analyzes the stock performance of major Canadian banks over a specific period. By exploring historical stock data, we identify trends, assess market volatility, and derive insights to support informed investment decisions. For a detailed analysis, refer to the full report: [Canadian Banks Stock Report](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/reports/Canadian_Banks_Stock_Report_draft1.pdf)
 
 ## Repository Structure
 
