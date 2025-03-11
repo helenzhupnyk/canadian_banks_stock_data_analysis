@@ -4,7 +4,7 @@
 
 **Authors:**  
 - [Mariia-Olena Zhupnyk](https://github.com/helenzhupnyk)  
-- [Mariia Shekhovtsova](https://github.com/Maria20892
+- [Mariia Shekhovtsova](https://github.com/Maria20892)
 
 This project aims to analyze the stock performance of major Canadian banks over a specific period. By leveraging historical stock data, we seek to identify trends, assess market volatility, and provide data-driven insights to support informed investment decisions.  
 For a detailed analysis, refer to the full report: [Canadian Banks Stock Report](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/reports/Canadian_Banks_Stock_Report_draft1.pdf)
