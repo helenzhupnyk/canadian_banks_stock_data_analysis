@@ -2,11 +2,25 @@
 
 ## Project Overview
 
-This project analyzes the stock performance of major Canadian banks over a specific period. By exploring historical stock data, we identify trends, assess market volatility, and derive insights to support informed investment decisions. For a detailed analysis, refer to the full report: [Canadian Banks Stock Report](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/reports/Canadian_Banks_Stock_Report_draft1.pdf)
+This project aims to analyze the stock performance of major Canadian banks over a specific period. By leveraging historical stock data, we seek to identify trends, assess market volatility, and provide data-driven insights to support informed investment decisions.  
+For a detailed analysis, refer to the full report: [Canadian Banks Stock Report](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/reports/Canadian_Banks_Stock_Report_draft1.pdf)
+
+### Goals  
+- Analyze historical stock price trends for major Canadian banks.  
+- Assess market volatility and its impact on stock performance.  
+- Identify correlations between stock price movements and external factors.  
+- Develop predictive models to forecast future stock prices.  
+- Present insights through interactive dashboards and reports.  
+
+### Business Questions  
+- What are the key trends in Canadian bank stock performance?  
+- How volatile have these stocks been over time?  
+- Can we predict future stock performance based on historical data?  
+- How do different banks compare in terms of stability and returns?  
+
+By answering these questions, we aim to provide actionable insights for investors and analysts.  
 
 ## Repository Structure
-
-## Repository Structure  
 
 - [`data/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/data): Contains the raw and processed datasets used for analysis.  
 - [`notebooks/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/notebooks): Jupyter notebooks detailing the data cleaning, exploration, and analysis processes.  
