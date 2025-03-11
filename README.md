@@ -6,22 +6,38 @@ This project analyzes the stock performance of major Canadian banks over a speci
 
 ## Repository Structure
 
-- **data/**: Contains the raw and processed datasets used for analysis.
-- **notebooks/**: Jupyter notebooks detailing the data cleaning, exploration, and analysis processes.
-- **dashboard/**: Interactive visualizations and dashboards presenting key findings.
-- **reports/**: Generated reports summarizing the analysis and insights.
+## Repository Structure  
 
-## Data Sources
+- [`data/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/data): Contains the raw and processed datasets used for analysis.  
+- [`notebooks/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/notebooks): Jupyter notebooks detailing the data cleaning, exploration, and analysis processes.  
+- [`dashboard/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/dashboard): Interactive visualizations and dashboards presenting key findings.  
+- [`reports/`](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/reports): Generated reports summarizing the analysis and insights.  
 
-The primary dataset comprises historical stock prices of the following Canadian banks:
+[Project Repository](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis)  
 
-- Bank of Montreal (BMO)
-- Bank of Nova Scotia (BNS)
-- Canadian Imperial Bank of Commerce (CM)
-- Royal Bank of Canada (RY)
-- Toronto-Dominion Bank (TD)
+## Data Collection  
 
-Data was sourced from reputable financial databases and includes daily closing prices, trading volumes, and other relevant metrics.
+The dataset comprises historical stock prices for major Canadian banks, sourced through web scraping from [Yahoo Finance](https://ca.finance.yahoo.com/). The data includes stock prices from January 2020 to December 2024, capturing daily closing prices, trading volumes, and other key metrics.  
+
+### Data Source  
+Web scraping was used to efficiently and automatically extract stock data, ensuring an up-to-date and comprehensive dataset. The dataset covers the following banks:  
+
+- **[Bank of Montreal (BMO)](https://ca.finance.yahoo.com/quote/BMO.TO/history)**  
+- **[Bank of Nova Scotia (BNS)](https://ca.finance.yahoo.com/quote/BNS.TO/history)**  
+- **[Canadian Imperial Bank of Commerce (CM)](https://ca.finance.yahoo.com/quote/CM.TO/history)**  
+- **[Royal Bank of Canada (RY)](https://ca.finance.yahoo.com/quote/RY.TO/history)**  
+- **[Toronto-Dominion Bank (TD)](https://ca.finance.yahoo.com/quote/TD.TO/history)**  
+
+### Data Structure  
+The dataset consists of the following columns:  
+
+- **`stock_ticker`** – Bank stock symbol (e.g., BMO.TO, TD.TO)  
+- **`date`** – Trading date  
+- **`close_price`**, **`high_price`**, **`low_price`**, **`open_price`** – Daily stock prices  
+- **`volume`** – Number of shares traded  
+
+These variables are essential for understanding price trends and trading activity.  
+
 
 ## Dashboard
 
