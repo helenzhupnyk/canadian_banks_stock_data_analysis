@@ -52,20 +52,46 @@ The dataset consists of the following columns:
 
 These variables are essential for understanding price trends and trading activity.  
 
+## Findings & Insights  
 
-## Dashboard
+Our analysis of Canadian bank stocks provides valuable insights into their performance, volatility, and predictive trends. The key findings are based on **exploratory data analysis (EDA)**, **Monte Carlo simulations**, **ARIMA forecasting**, and interactive **dashboard visualizations**.  
 
-An interactive dashboard is available to visualize key findings from the analysis. The dashboard provides insights into stock trends, volatility, and comparisons among the banks.
+### 1. Stock Performance Trends  
+- All five banks—**BMO, BNS, CM, RY, and TD**—demonstrated **steady growth** over the analyzed period.  
+- **RBC (RY) and TD Bank (TD)** showed the most consistent upward trends, making them relatively stable investments.  
+
+### 2. Volatility Assessment  
+- While all banks experienced **periods of volatility**, **CIBC (CM)** exhibited the highest fluctuations, suggesting higher risk but potential for short-term gains.  
+- **BMO and RBC stocks** showed more resilience to market shocks, making them suitable for risk-averse investors.  
+- **Monte Carlo simulations** highlighted the range of possible future stock prices, emphasizing the uncertainty in short-term predictions.  
+
+### 3. Correlation Analysis  
+- A **strong positive correlation** was observed between the stock prices of all five banks.  
+- This suggests that external macroeconomic factors—such as **interest rates, inflation, and financial sector performance**—affect all banks similarly.  
+- **Diversification within Canadian bank stocks may not significantly reduce risk** since they move in tandem.  
+
+### 4. Predictive Modeling & Forecasting  
+- **ARIMA models** provided reasonable short-term predictions, with RBC and TD showing the **most predictable trends**.  
+- **Monte Carlo simulations** demonstrated a range of possible future prices, helping assess potential risks.  
+- Future stock performance is **highly dependent on economic conditions**, making continuous monitoring essential.  
+
+### 5. Interactive Dashboard Insights  
+- Our **Power BI dashboard** presents real-time trends, moving averages, and volatility indicators for each bank.  
+- Users can filter by **date range, stock ticker, and performance metrics** to gain personalized insights.  
+- A comparison of **historical vs. predicted prices** helps assess model accuracy and investment potential.
+
 ![image](https://github.com/user-attachments/assets/82ef8f55-fe2a-4d60-a0b4-73b245522047)
 ![image](https://github.com/user-attachments/assets/e595c902-46ae-447c-817c-4ba715a25175)
 
-**Access the dashboard here:** [Dashboard Link](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/dashboard)
+**Explore our interactive dashboard:** [Stock Analysis Dashboard](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/tree/main/dashboard)  
 
-## Key Findings
+For a deeper dive into the analysis, check out our notebooks:  
+- [Exploratory Data Analysis (EDA)](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/notebooks/02_EDA.ipynb)  
+- [Monte Carlo Simulation & Predictions](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/main/notebooks/03_Predictions_Visualization_Monte_Carlo_Simulation.ipynb)  
+- [Advanced Data Analysis](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/mariia/data_analysis.ipynb)  
+- [ARIMA Forecasting](https://github.com/helenzhupnyk/canadian_banks_stock_data_analysis/blob/mariia/ARIMA_prediction.ipynb)  
 
-1. **Stock Performance Trends**: Analysis revealed that all five banks experienced growth in their stock prices over the analyzed period, with notable fluctuations corresponding to major economic events.
-2. **Volatility Assessment**: The banks exhibited varying levels of volatility, with some showing more resilience to market downturns than others.
-3. **Correlation Analysis**: There is a high positive correlation among the stock prices of these banks, indicating that they often move in tandem, likely due to their exposure to similar market conditions.
+These findings provide **actionable insights** for investors, helping them assess risk, identify trends, and make informed investment decisions. 🚀  
 
 ## Recommendations
 
