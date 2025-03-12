@@ -14,15 +14,7 @@ For a detailed analysis, refer to the full report: [Canadian Banks Stock Report]
 - Assess market volatility and its impact on stock performance.  
 - Identify correlations between stock price movements and external factors.  
 - Develop predictive models to forecast future stock prices.  
-- Present insights through interactive dashboards and reports.  
-
-### Business Questions  
-- What are the key trends in Canadian bank stock performance?  
-- How volatile have these stocks been over time?  
-- Can we predict future stock performance based on historical data?  
-- How do different banks compare in terms of stability and returns?  
-
-By answering these questions, we aim to provide actionable insights for investors and analysts.  
+- Present insights through interactive dashboards and reports.   
 
 ## Repository Structure
 
