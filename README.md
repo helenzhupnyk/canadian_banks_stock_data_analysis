@@ -56,6 +56,38 @@ The dataset consists of the following columns:
 
 These variables are essential for understanding price trends and trading activity.  
 
+## Methodology
+
+The analysis of Canadian bank stock data involves several key tools, techniques, and steps, outlined below:
+
+### Tools:
+- **Python**: The primary programming language used for data manipulation, analysis, and visualization.
+- **Pandas**: Utilized for loading, cleaning, and transforming the data into DataFrames.
+- **Matplotlib/Seaborn**: Used for data visualization to create graphs and charts that help in understanding stock trends.
+- **Jupyter Notebook**: An interactive environment for running Python code, visualizing data, and documenting analysis.
+- **Scikit-learn**: Applied for implementing machine learning algorithms like regression for predictive modeling.
+- **Statsmodels**: Used for statistical analysis, including time-series forecasting models such as ARIMA.
+- **Power BI**: For building interactive dashboards to visualize stock trends and analysis results.
+
+### Techniques:
+- **Data Cleaning**: Handling missing values, dropping irrelevant columns, and converting data types to prepare the dataset for analysis.
+- **Exploratory Data Analysis (EDA)**: Examining the dataset through summary statistics and visualizations to identify patterns, trends, and correlations.
+- **Moving Averages**: Calculating Simple Moving Averages (SMA) and Exponential Moving Averages (EMA) to identify trends and forecast stock price movements.
+- **Volatility Analysis**: Measuring the variability in stock prices over time to assess market risk.
+- **Correlation Analysis**: Analyzing the relationships between stock returns of different banks to identify potential diversification opportunities.
+- **Time Series Forecasting**: Implementing ARIMA and other predictive models to forecast future stock prices based on historical data.
+- **Monte Carlo Simulation**: A Monte Carlo Simulation is used to simulate a wide range of possible future stock price outcomes based on historical data and the distribution of returns.
+
+### Steps:
+1. **Data Collection**: Stock price data for Canadian banks is gathered from Yahoo Finance and stored in a PostgreSQL database.
+2. **Data Cleaning & Preprocessing**: Data is loaded into a Pandas DataFrame, unnecessary columns are dropped, and the date column is converted into a DateTime format.
+3. **Exploratory Data Analysis (EDA)**: Basic statistical analysis and visualizations are performed to understand the data and its patterns.
+4. **Feature Engineering**: New features such as moving averages and returns are created to enhance the predictive models.
+5. **Model Building**: Time series forecasting models (e.g., ARIMA) are trained and tested on the dataset to predict future stock prices.
+6. **Evaluation & Recommendations**: The models are evaluated for accuracy, and investment recommendations are provided based on the analysis results.
+
+This methodology allows us to gain insights into stock performance, predict future trends, and make data-driven investment decisions.
+
 ## Findings & Insights  
 
 Our analysis of Canadian bank stocks provides valuable insights into their performance, volatility, and predictive trends. The key findings are based on **exploratory data analysis (EDA)**, **Monte Carlo simulations**, **ARIMA forecasting**, and interactive **dashboard visualizations**.  
